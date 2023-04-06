@@ -17,9 +17,6 @@ public abstract class Transport {
         System.out.println("Проверяем двигатель");
     }
 
-    public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
-    }
 
     public String getModelName() {
         return modelName;
